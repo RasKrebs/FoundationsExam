@@ -22,3 +22,9 @@ The parity bits are then determined based on these databits that they are 'cover
 
 - P<sub>1</sub> covers D<sub>1</sub>, D<sub>2</sub>, D<sub>4</sub>: If ones in these databits are odd, the parity will be **1**, if they are even, it will be **0**
   - P<sub>1</sub> = 1 if databits are [1 | 1 | 1] (their are an odd number of ones)
+
+| | D<sub>1</sub> | D<sub>2</sub> | D<sub>3</sub>  | D<sub>4</sub>  | 
+|-----|-----|-----|-----|-----|
+| P<sub>1</sub>| ✅|✅ | ❌| ✅ | ✅ |
+| P<sub>2</sub>| ✅ | ❌ | ✅ | ✅ |
+| P<sub>3</sub>| ❌ | ✅ | ✅ | ✅ |
